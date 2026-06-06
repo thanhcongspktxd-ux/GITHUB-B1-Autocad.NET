@@ -17,8 +17,8 @@ namespace GITHUB_B1
         public void SayHello()
         {
             Editor ed = Application.DocumentManager.MdiActiveDocument.Editor;
-            Database db = Application.DocumentManager.MdiActiveDocument.Database;
-            ed.WriteMessage("\nHello GitHub. NET Updated");
+           
+            ed.WriteMessage("\nHello GitHub. NET Updated 234");
         }
     }
 }
