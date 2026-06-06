@@ -13,5 +13,6 @@ namespace GITHUB_B1
 {
     public class Class1
     {
+
     }
 }
