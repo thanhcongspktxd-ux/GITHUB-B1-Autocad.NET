@@ -11,8 +11,13 @@ using System.Runtime.ConstrainedExecution;
 
 namespace GITHUB_B1
 {
-    public class Class1
+    public class GitHubB1
     {
-
+        [CommandMethod("HELLO GITHUB")]
+        public void SayHello()
+        {
+            Editor ed = Application.DocumentManager.MdiActiveDocument.Editor;
+            ed.WriteMessage("\nHello GitHub. NET");
+        }
     }
 }
